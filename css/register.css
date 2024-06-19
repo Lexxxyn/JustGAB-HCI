@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodyreg{
+    width: 934.375px;
+    margin-left: 80px;
+}
+
+h2{
+    font-size: 50px;
+    font-family: "Montserrat";
+    margin-top: 20px;
+}
+
+p{
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-family: "Montserrat";
+}
+
+.wrapper{
+    position: relative;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    /* padding: 30px; */
+    margin-left: 0px;
+}
+
+.form-wrapper{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    transition: 1s ease-in-out;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-radius: 10px;
+    font-family: "Montserrat";
+}
+
+.step{
+    margin-left: 900px;
+    width: 200px;
+    height: 30px;
+    margin-top: -30px;
+}
+
+.step p{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    padding-left: 65px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.step .step2{
+    color: rgba(0, 0, 0, .29);
+}
+
+.profregs{
+    width: 300px;
+    height: 300px;
+    margin-left: 250px;
+}
+
+.inputgrup{
+    position: relative;
+    margin: 20px 0;
+}
+
+.inputgrup label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #000;
+    pointer-events: none;
+    padding-left: 15px;
+    opacity: .6;
+    transition: .5s;
+}
+
+.inputgrup input{
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    color: #000;
+    padding: 0 5px;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    background-color: rgba(180, 126, 229, .35);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 2px #000000;
+
+}
+
+.inputgrup input:focus~label,
+.inputgrup input:valid~label{
+    top: 8px;
+}
+
+.inputgrup1{
+    position: relative;
+    margin: 40px 0;
+    margin-left: 420px;
+    margin-top: -90px;
+}
+
+.inputgrup1 label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #000000;
+    pointer-events: none;
+    padding-left: 15px;
+    opacity: .6;
+    transition: .5s;
+}
+
+.inputgrup1 input{
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    color: #000;
+    padding: 0 5px;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    background-color: rgba(180, 126, 229, .35);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 2px #000000;
+}
+
+.inputgrup1 input:focus~label,
+.inputgrup1 input:valid~label{
+    top: 8px;
+}
+
+.inputgrup2{
+    position: relative;
+    margin: 20px 0;
+    padding-bottom: 80px;
+}
+
+.inputgrup2 label{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #000000;
+    pointer-events: none;
+    padding-left: 15px;
+    opacity: .6;
+    transition: .5s;
+}
+
+.inputgrup2 input{
+    width: 820px;
+    height: 70px;
+    font-size: 20px;
+    color: #000;
+    padding: 0 5px;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    background-color: rgba(180, 126, 229, .35);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 2px #000000;
+}
+
+.inputgrup2 input:focus~label,
+.inputgrup2 input:valid~label{
+    top: 8px;
+}
+
+.inputgrup3{
+    position: relative;
+    margin: 20px 0;
+    margin-top: -60px;
+}
+
+.inputgrup3 label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #000;
+    pointer-events: none;
+    padding-left: 15px;
+    opacity: .6;
+    transition: .5s;
+}
+
+.inputgrup3 input{
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    color: #000;
+    padding: 0 5px;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    background-color: rgba(180, 126, 229, .35);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 2px #000000;
+
+}
+
+.inputgrup3 input:focus~label,
+.inputgrup3 input:valid~label{
+    top: 8px;
+}
+
+.inputgrup4{
+    position: relative;
+    margin: 20px 0;
+}
+
+.inputgrup4 label{
+    position: absolute;
+    top: 1%;
+    left: 5px;
+    transform: translateY();
+    font-size: 18px;
+    color: #000;
+    pointer-events: none;
+    padding-left: 15px;
+    opacity: .6;
+    transition: .5s;
+}
+
+.inputgrup4 input{
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    color: #000;
+    padding: 0 5px;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    background-color: rgba(180, 126, 229, .35);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 2px #000000;
+
+}
+
+.inputgrup5{
+    position: relative;
+    margin: 20px 0;
+    margin-left: 420px;
+    margin-top: -90px;
+}
+
+.inputgrup5 label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #000;
+    pointer-events: none;
+    padding-left: 15px;
+    opacity: .6;
+    transition: .5s;
+}
+
+.inputgrup5 select{
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    color: #000;
+    padding: 0 5px;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    background-color: rgba(180, 126, 229, .35);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 2px #000000;
+
+}
+
+.inputgrup5 input:focus~label,
+.inputgrup5 input:valid~label{
+    top: 8px;
+}
+
+.next{
+    background-color: #fff;
+    outline: none;
+    border: none;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+    margin-left: -35px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.next p{
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.next ion-icon{
+    margin-bottom: -5px;
+    font-size: 30px;
+}
+
+.onderdare{
+    position: absolute;
+    width: 55%;
+    height: auto;
+    z-index: -40;
+    margin-top: -745px;
+    margin-left: 755px;
+}

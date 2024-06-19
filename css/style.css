@@ -1,0 +1,169 @@
+body {
+    background-image: url("./assets/BGcolor.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    object-fit: cover;
+}
+
+.login {
+    width: 90%;
+    margin: 0 auto; 
+}
+  
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.navbarlogo{
+    display:flex;
+    justify-content: center;
+    width: auto;
+    height: 60px;
+}
+
+.navigation1{
+    padding-top: 10px;
+    margin-right: 100px;
+    padding-right: 60px;
+    font-family:Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navigation2{
+    padding-top: 10px;
+    margin-left: 100px;
+    padding-left: 60px;
+    font-family:Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navigation1 , .navigation2 {
+    text-decoration: none;
+    color: black;
+}
+
+.loginlogin{
+    height: auto;
+    width: 55.4%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -80px;
+    z-index: -20;
+    margin-left: 750px;
+}
+
+@media (max-width: 480px) { 
+    .loginlogin {
+        width: 30px;
+        height: 30px;
+    }
+}
+  
+
+.grtgb{
+    margin-top: 150px;
+    margin-left: 48px;
+    font-size: 70px;
+    margin-bottom: auto;
+}
+
+.button {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 16px; 
+    font-weight: bold; 
+    font-family: "Montserrat";
+    margin-left: 44px;
+}
+
+.button:hover {
+    background-color: #31363b52; 
+  }
+  
+.vect{
+    height: auto;
+    width: 59%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -190px;
+    z-index: -10;
+    margin-left: 600px;
+    transform: scaleX(-1) scale(1.5); 
+}
+
+.desc{
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+.socialplatform{
+    font-size: 18px;
+    margin-left: 1px;
+    margin-top: 0;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 49px;
+}
+
+.socialplatform p{
+    padding-right: 20px;
+}
+
+.socialplatform .loginsocs{
+    font-weight: 600;
+}
+
+.socialplatform{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.socialplatform .tabb{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+.socialplatform .tabbed{
+    padding-right: 10px;
+}
+
+.socialicon a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #BFC592;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin: 15px 6px 0;
+    justify-content: center;
+    transition: .3s;
+    background: #8F9C00;
+}
+
+.socialicon a:hover{
+    background: #fff;
+}
+
+.socialicon a i{
+    color: #fff;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.socialicon a:hover i{
+    color: rgba(0,0,0,.3);
+}

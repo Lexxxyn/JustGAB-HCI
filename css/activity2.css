@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.activity {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .activity .overlap-wrapper {
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(191, 233, 232) 0%, rgb(125, 162, 217) 100%);
+    width: 100%;
+    height: 958px;
+  }
+  
+  .activity .overlap {
+    position: relative;
+    width: 1911px;
+    height: 1410px;
+    top: 14px;
+    left: -525px;
+  }
+  
+  .activity .overlap-group {
+    position: absolute;
+    width: 1877px;
+    height: 1410px;
+    top: 0;
+    left: 0;
+  }
+  
+  .activity .div {
+    position: absolute;
+    width: 1346px;
+    height: 1287px;
+    top: 123px;
+    left: 0;
+  }
+  
+  .activity .ellipse {
+    position: absolute;
+    width: 999px;
+    height: 744px;
+    top: 230px;
+    left: 123px;
+    background-color: #ffffff;
+    border-radius: 499.69px/371.84px;
+    transform: rotate(38.3deg);
+    opacity: 0.19;
+  }
+  
+  .activity .ellipse-2 {
+    position: absolute;
+    width: 999px;
+    height: 744px;
+    top: 354px;
+    left: 231px;
+    background-color: #ffffff;
+    border-radius: 499.69px/371.84px;
+    transform: rotate(27.64deg);
+    opacity: 0.08;
+  }
+  
+  .activity .ellipse-3 {
+    position: absolute;
+    width: 545px;
+    height: 545px;
+    top: 96px;
+    left: 657px;
+    background-color: #ffffff;
+    border-radius: 272.5px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .activity .yoga-with-face-masks {
+    position: absolute;
+    width: 534px;
+    height: 394px;
+    top: 141px;
+    left: 663px;
+  }
+  
+  .activity .ellipse-4 {
+    position: absolute;
+    width: 139px;
+    height: 139px;
+    top: 96px;
+    left: 640px;
+    background-color: #ffffff;
+    border-radius: 69.5px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .activity .group {
+    position: absolute;
+    width: 107px;
+    height: 78px;
+    top: 122px;
+    left: 657px;
+  }
+  
+  .activity .overlap-group-2 {
+    position: relative;
+    height: 78px;
+  }
+  
+  .activity .ellipse-5 {
+    position: absolute;
+    width: 107px;
+    height: 34px;
+    top: 43px;
+    left: 0;
+    background-color: #317990;
+    border-radius: 53.39px/17.06px;
+    opacity: 0.39;
+  }
+  
+  .activity .ellipse-6 {
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    top: 0;
+    left: 18px;
+    background-color: #7da2d9;
+    border-radius: 35.5px;
+  }
+  
+  .activity .text-wrapper {
+    position: absolute;
+    width: 62px;
+    top: 144px;
+    left: 679px;
+    font-family: "Montserrat-ExtraBoldItalic";
+    font-weight: 800;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .activity .overlap-2 {
+    position: absolute;
+    width: 319px;
+    height: 170px;
+    top: 0;
+    left: 573px;
+  }
+  
+  .activity .xv-x-xc-zxcvb {
+    position: absolute;
+    width: auto;
+    height: 100px;
+    top: 32px;
+    left: 153px;
+    object-fit: cover;
+  }
+  
+  .activity .UNTITLED-AI-style {
+    position: absolute;
+    width: auto;
+    height: 100px;
+    top: 30px;
+    left: 60px;
+    object-fit: cover;
+  }
+  
+  .activity .UNTITLED-AI-style {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .activity .overlap-3 {
+    position: absolute;
+    width: 538px;
+    height: 97px;
+    top: 254px;
+    left: 1789px;
+  }
+  
+  .activity .rectangle {
+    position: absolute;
+    width: 538px;
+    height: 91px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .activity .text-wrapper-2 {
+    position: absolute;
+    width: 413px;
+    top: 13px;
+    left: 32px;
+    font-family: "Montserrat-SemiBold";
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .activity .text-wrapper-3 {
+    position: absolute;
+    width: 413px;
+    top: 53px;
+    left: 32px;
+    font-family: "Montserrat-Medium";
+    font-weight: 500;
+    color: #545454;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .activity .overlap-4 {
+    position: absolute;
+    width: 538px;
+    height: 337px;
+    top: 365px;
+    left: 1789px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .activity .p {
+    position: absolute;
+    width: 478px;
+    top: 22px;
+    left: 27px;
+    font-family: "Montserrat-Regular";
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .activity .text-wrapper-4 {
+    position: absolute;
+    width: 118px;
+    top: 213px;
+    left: 89px;
+    font-family: "Montserrat-Regular";
+    font-weight: 400;
+    color: #545454;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .activity .text-wrapper-5 {
+    position: absolute;
+    width: 332px;
+    top: 266px;
+    left: 89px;
+    font-family: "Montserrat-Regular";
+    font-weight: 400;
+    color: #545454;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .activity .mingcute-time-fill {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 208px;
+    left: 27px;
+  }
+  
+  .activity .ic-baseline-place {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 260px;
+    left: 24px;
+  }
+  
+  .activity .gravity-ui-play-fill-wrapper {
+    position: absolute;
+    width: 232px;
+    height: 62px;
+    top: 724px;
+    left: 1789px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .activity .gravity-ui-play-fill {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 18px;
+    left: 102px;
+  }
+  
+  .activity .text-wrapper-6 {
+    position: absolute;
+    width: 413px;
+    top: 174px;
+    left: 1789px;
+    font-family: "Montserrat-Bold";
+    font-weight: 700;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .activity .text-wrapper-7 {
+    position: absolute;
+    width: 112px;
+    top: 58px;
+    left: 1750px;
+    font-family: "Mondserrat-Medium";
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .activity .text-wrapper-8 {
+    position: absolute;
+    width: 112px;
+    top: 58px;
+    left: 1896px;
+    font-family: "Mondserrat-Medium";
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .activity .text-wrapper-9 {
+    position: absolute;
+    width: 112px;
+    top: 58px;
+    left: 2040px;
+    font-family: "Mondserrat-Medium";
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .activity .img {
+    position: absolute;
+    width: 89px;
+    height: 89px;
+    top: 23px;
+    left: 2222px;
+  }
+  
+  .activity .ri-arrow-drop-down {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 49px;
+    left: 2311px;
+  }
+  
+  .activity .solar-bookmark-bold-wrapper {
+    position: absolute;
+    width: 67px;
+    height: 62px;
+    top: 724px;
+    left: 2038px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .activity .solar-bookmark-bold {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 15px;
+    left: 17px;
+  }
+  
+  .activity .solar-notes-bold-wrapper {
+    position: absolute;
+    width: 67px;
+    height: 62px;
+    top: 724px;
+    left: 2122px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .activity .solar-notes-bold {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 12px;
+    left: 14px;
+  }
+  

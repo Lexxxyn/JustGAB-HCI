@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registerpage</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/mainpagecontent.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <img src="../assets/FNFSBSF.jpg" alt="" class="bgcolor">
+    <header>
+        <nav class="navbar">
+            <a href="aboutus.html" class="navigation1">About</a>
+            <a href="mainpage.html" class="navigation1">Features</a>
+            <a href="mainpage.html">
+                <div class="navbarlogo">
+                    <img src="../assets/hci-logo.png" alt="" class="logonav">
+                    <img src="../assets/xv-x-xc-zxcvb.png" alt="" class="logotext">
+                </div>
+            </a>
+            <a href="login.html" class="navigation2">Login</a>
+            <a href="login.html" class="navigation2">Contact</a>
+
+        </nav>
+    </header>
+    
+    <div class="bodyreg">
+        <h2>Let's Set Up</h2>
+        <p>Success starts from knowing yourself better</p>
+        <div class="wrapper">
+            <div class="form-wrapper register1">
+                <div class="step">
+                    <p class="step1">Step 1</p>
+                    <p class="step2">Step 2</p>
+                </div>
+            <form action="">
+                <div class="inputgrup">
+                    <input type="text" required>
+                    <label for="">First Name</label>
+                </div>
+                <div class="inputgrup1">
+                    <input type="text" required>
+                    <label for="">Last Name</label>
+                </div>
+                <div class="inputgrup2">
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="inputgrup3">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="inputgrup1">
+                    <input type="password" required>
+                    <label for="">Confirm Password</label>
+                </div>
+                <div class="inputgrup4">
+                    <input type="date" required>
+                    <label for="">Date of Birth</label>
+                </div>
+                <div class="inputgrup5">
+                    <select name="Gender" id="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <label for=""></label>
+                </div>
+                    <button onclick="doSomething()" class="next">
+                        <p>Next <ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
+                    </button>
+            </form>
+        </div>
+    </div>
+    
+    <img src="../assets/regisregisavatar.png" alt="" class="onderdare">
+
+    <script>
+        function doSomething(){
+            window.location.href = "register2.html";
+        }
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
